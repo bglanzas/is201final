@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Frontier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .main-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px; /* Extend the border below */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .video-container,
+        .tableau-container {
+            width: 800px; /* Set the width */
+            height: 450px; /* Set the height */
+            margin: 0 auto 20px auto; /* Center and extend the border below */
+        }
+        .video-container iframe,
+        .tableau-container iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The Last Frontier</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="index.html">Resume</a>
+    <a href="#facts">Fun Facts</a>
+    <a href="#galaxies">Video/Tableau</a>
+</nav>
+
+<div class="container">
+    <div id="home" class="main-content">
+        <h2>Welcome to The Final Frontier!</h2>
+        <p>Space, the final frontier! Explore the wonders of the universe with us.</p>
+    </div>
+
+    <div id="Stars" class="main-content">
+        <h2>Stars</h2>
+        <p>Here is an image of the different kind of stars!</p>
+        <div class="center">
+            <img src="assets/img/Stars.png" alt="stars" width="500" height="200">
+        </div>
+    </div>
+
+
+    <div id="facts" class="main-content">
+        <h2>Fun Facts</h2>
+        <p>Here are some fun facts about some of the Planets.</p>
+        <ol>
+            <li>Jupiter
+                <ul>
+                    <li>It has 80 moons.</li>
+                    <li>A day on Jupiter is 10 hours.</li>
+                    <li>Jupiter's atmosphere contains water vapor.</li>
+                </ul>
+            </li>
+            <li>Mercury 
+                <ul>
+                    <li>Mercury is the smallest planet in the solar system.</li>
+                    <li>Mercury doesn't have any moons.</li>
+                    <li>A day on Mercury is 59 Earth days.</li>
+                </ul>
+            </li>
+            <li>Uranus
+                <ul>
+                    <li>It was the first planet to be discovered through a telescope.</li>
+                    <li>Uranus has 13 rings.</li>
+                    <li>A day on Uranus is only 17 hours.</li>
+                </ul>
+            </li>
+            <li>Mars 
+                <ul>
+                    <li>The atmosphere on Mars is about 100 times thinner than the Earth's atmosphere.</li>
+                    <li>Mars can have huge dust storms which last for months and can cover the entire planet.</li>
+                    <li>Mars is called the Red Planet because of all the iron in the soil.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div id="galaxies" class="main-content">
+        <h2 class="video-title">Becoming Multiplanetary!</h2>
+        <div class="video-container">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/v9lAGmWhcZM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="tableau-container">
+            <iframe src="https://public.tableau.com/views/WorldIndicators/GDPpercapita?:showVizHome=no&amp;:embed=true" width="800" height="450" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 The Final Frontier</p>
+</footer>
+
+</body>
+</html>
+
